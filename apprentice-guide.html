@@ -47,12 +47,12 @@
   <div class="wrap">
 
     <h2 id="board-title">What do you need to do?</h2>
-    <label for="guide-search" class="sub" style="display:block;margin-bottom:10px">Pick a topic, or search, for example "password", "upload" or "hours".</label>
+    <label for="guide-search" class="sub" style="display:block;margin-bottom:10px">Pick a topic, or search, for example "MFA", "upload" or "hours".</label>
     <input id="guide-search" class="search" type="search" placeholder="Search this guide" autocomplete="off">
     <p class="no-results">Nothing matches that search. Try a shorter word, or message your assessor.</p>
 
     <div class="board" id="board" style="margin-bottom:48px">
-      <a class="tile pink" href="#a01"><span class="tnum">01</span><span class="tname">Log in to e-track</span><span class="tdesc">First login, logging in and forgotten passwords.</span></a>
+      <a class="tile pink" href="#a01"><span class="tnum">01</span><span class="tname">Log in to e-track</span><span class="tdesc">Sign in with Microsoft, MFA and passwords.</span></a>
       <a class="tile pink" href="#a02"><span class="tnum">02</span><span class="tname">Find your way around</span><span class="tdesc">Your Home page and the menu.</span></a>
       <a class="tile blue" href="#a03"><span class="tnum">03</span><span class="tname">Message your assessor</span><span class="tdesc">Send, read and reply to messages.</span></a>
       <a class="tile blue" href="#a04"><span class="tnum">04</span><span class="tname">Check your progress</span><span class="tdesc">Progress, gap analysis, your plan and tasks.</span></a>
@@ -68,17 +68,20 @@
       <div class="task-head"><span class="big">01</span><div><h2>Log in to e-track</h2></div></div>
       <div class="task-cols">
         <div>
+          <p>You log in to e-track with your <strong>college login details</strong>: the same email address and password you use for other college systems.</p>
+          <div class="callout warn" style="margin:0 0 16px"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i><p><strong>Set up MFA first.</strong> You must set up multi-factor authentication (MFA) on your college account before you can sign in to e-track. See "Set up MFA" on this page.</p></div>
           <ol class="steplist pink">
             <li>Go to <a href="https://etrack.wolvcoll.ac.uk/etrack/" target="_blank" rel="noopener">etrack.wolvcoll.ac.uk/etrack</a> in any web browser.</li>
-            <li>Enter your <span class="ui">Username</span> and <span class="ui">Password</span>.</li>
-            <li>Tick <span class="ui">Save Details</span> only if you're on your own device. Never tick it on a shared or public computer.</li>
-            <li>Click <span class="ui">Log in</span>. You'll see your Home page.</li>
+            <li>Click <span class="ui">Sign in with Microsoft</span>, the dark button at the top.</li>
+            <li>Enter your college email address and password.</li>
+            <li>Approve the sign-in with MFA, for example in the Microsoft Authenticator app on your phone.</li>
+            <li>You'll see your e-track Home page.</li>
           </ol>
-          <figure class="shot narrow"><a class="zoom" href="assets/img/login.png"><img src="assets/img/login.png" alt="The e-track login page with Username, Password, Forgotten Password, Save Details and Log in" loading="lazy"></a><figcaption>The e-track login page.</figcaption></figure>
+          <figure class="shot"><a class="zoom" href="assets/img/login.png"><img src="assets/img/login.png" alt="The Maytas Hub login page with a Sign in with Microsoft button at the top" loading="lazy"></a><figcaption>The login page. Apprentices click Sign in with Microsoft. Don't use the Username and Password boxes underneath.</figcaption></figure>
         </div>
         <div>
-          <div class="side-box"><h4><i class="fa-solid fa-user-plus" style="color:var(--pink)" aria-hidden="true"></i> Your first login</h4><p>Your assessor will help you log in for the first time at your induction. If you haven't got your username or password, message or ask your assessor.</p></div>
-          <div class="side-box"><h4><i class="fa-solid fa-key" style="color:var(--purple)" aria-hidden="true"></i> Forgotten your password?</h4><ol class="steplist purple" style="margin-top:4px"><li>Click <span class="ui">Forgotten Password?</span> under the password box.</li><li>Enter your username and email address.</li><li>Open the email from e-track and follow the link to set a new password.</li></ol><p>Use a password of at least 10 characters, with a capital letter, a small letter, a number and a symbol such as ! or #.</p></div>
+          <div class="side-box"><h4><i class="fa-solid fa-mobile-screen-button" style="color:var(--pink)" aria-hidden="true"></i> Set up MFA</h4><p>MFA proves it's really you, usually with an app on your phone. Follow the college's instructions to set it up. Most people:</p><ol class="steplist pink" style="margin-top:4px"><li>Install the <strong>Microsoft Authenticator</strong> app on their phone.</li><li>Go to <a href="https://aka.ms/mfasetup" target="_blank" rel="noopener">aka.ms/mfasetup</a> and sign in with their college login.</li><li>Follow the steps to add the Authenticator app.</li></ol><p>Stuck? Ask college IT support or your assessor.</p></div>
+          <div class="side-box"><h4><i class="fa-solid fa-key" style="color:var(--purple)" aria-hidden="true"></i> Forgotten your password?</h4><p>e-track uses your college password, so reset it the same way you would for any college system, or ask college IT support. The <span class="ui">Forgotten Password?</span> link on the e-track login page isn't for you: it's for assessors and employers.</p></div>
         </div>
       </div>
       <div class="guide-foot"><a class="back-top" href="#board"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i> Back to the topics</a></div>
@@ -286,7 +289,7 @@
           <ol class="steplist yellow">
             <li>Open <a href="https://etrack.wolvcoll.ac.uk/etrack/" target="_blank" rel="noopener">etrack.wolvcoll.ac.uk/etrack</a> in your phone's browser.</li>
             <li><strong>iPhone:</strong> tap the share button, then <span class="ui">Add to Home Screen</span>. <strong>Android:</strong> tap the menu (three dots), then <span class="ui">Add to Home screen</span>.</li>
-            <li>Open e-track from the new icon and log in.</li>
+            <li>Open e-track from the new icon and click <span class="ui">Sign in with Microsoft</span>.</li>
           </ol>
           <div class="side-box"><h4><i class="fa-solid fa-star" style="color:#c99500" aria-hidden="true"></i> Good habits</h4><ul><li>Check e-track at least once a week.</li><li>Photograph your work and submit it straight away.</li><li>Log off-the-job hours on the day.</li><li>Reply to your assessor in e-track, so everything's in one place.</li></ul></div>
         </div>
@@ -300,8 +303,9 @@
       <div class="table-wrap"><table class="data wrap1">
         <thead><tr><th>Problem</th><th>What to try</th></tr></thead>
         <tbody>
-          <tr><td>I can't log in</td><td>Use <span class="ui">Forgotten Password?</span> on the login page. If that doesn't work, ask your assessor.</td></tr>
-          <tr><td>The password email hasn't arrived</td><td>Check your junk folder, and check it's the email address you gave when you enrolled.</td></tr>
+          <tr><td>I can't log in</td><td>Make sure you click <span class="ui">Sign in with Microsoft</span> and use your college email and password. Don't type them into the Username and Password boxes.</td></tr>
+          <tr><td>It won't let me finish signing in</td><td>Check you've set up MFA on your college account and approved the sign-in on your phone (topic 1).</td></tr>
+          <tr><td>I've forgotten my college password</td><td>Reset it the same way as for other college systems, or ask college IT support.</td></tr>
           <tr><td>My file isn't on my message</td><td>Click <span class="ui">Upload files</span> after <span class="ui">Attach File</span>, before you send.</td></tr>
           <tr><td>My evidence isn't in my gap analysis</td><td>Your assessor needs to check it first.</td></tr>
           <tr><td>I can't change my learning plan</td><td>Only your assessor can. Send them a message.</td></tr>
